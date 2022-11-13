@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body {
+    background-color: rgb(200, 200, 200);
+    padding: 0 15px;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 125);
+    width: 1300px;
+    max-width: 100%;
+}
+body .heading {
+    background-color: rgb(150, 0, 0);
+    color: #fff;
+    margin-right: 1062px;
+    text-align: center;
+    font-weight: 600;
+
+}
+body .sign_in {
+    position: absolute;
+    right: 148px;
+    top: 50px;
+    border: 0;
+    padding: 0 50px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    line-height: 32px;
+    background-color: rgb(150, 0, 0);
+}
+body .sign_in:hover {
+    background-color: rgb(109, 0, 0);
+}
+body .menu {
+    list-style: none;
+    padding: 0;
+    background: rgb(150, 0, 0);
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+body .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+body .menu li {
+    display: inline-block;
+    text-align: center;
+}
+body .menu li a:hover {
+    background-color: rgb(109, 0, 0);
+}
+body .subheading {
+    font-weight: 800;
+    color: white;
+    width: auto;
+    background-color: rgb(150, 0, 0);
+    padding: 0 125px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    border: 3px solid black;
+}
